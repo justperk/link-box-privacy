@@ -4,34 +4,32 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Link Box privacy</title>
-  <link rel="stylesheet" href="options.css">
+  <style>
+    :root { color-scheme: dark; }
+    body { margin: 0; background: #0d0f14; color: #e8eef4; font: 16px/1.55 ui-sans-serif, system-ui, sans-serif; }
+    main { max-width: 640px; margin: 0 auto; padding: 48px 20px 72px; }
+    h1 { margin: 0 0 8px; letter-spacing: -0.03em; font-size: 28px; }
+    h2 { font-size: 16px; margin: 32px 0 8px; }
+    p { color: #c5ced6; margin: 0 0 12px; }
+    .lede { color: #9aa6b2; margin-bottom: 28px; }
+    code { font-size: 13px; }
+    a { color: #7dd3c7; }
+  </style>
 </head>
 <body>
   <main>
-    <header>
-      <img src="icons/icon48.png" width="36" height="36" alt="">
-      <div>
-        <h1>Privacy</h1>
-        <p>Effective 14 August 2026. Link Box is a local browser extension.</p>
-      </div>
-    </header>
-
-    <section class="howto">
-      <h2>What we collect</h2>
-      <p>The developer does not collect, receive, or sell any data. There is no account, no analytics, and no server.</p>
-      <p>On your device, Link Box reads link URLs on the page you are looking at, only when you drag a selection. Those URLs are used in memory to highlight, open tabs, or copy to the clipboard. They are not stored by the extension and are not sent to the developer.</p>
-      <p>Settings (activation key, max tabs, and the toggles on the options page) are saved with <code>chrome.storage.sync</code>. If Chrome Sync is enabled, Google stores those settings in your Chrome profile so they follow you across devices. That is Chrome’s sync, not a Link Box server.</p>
-
-      <h2>What we do not do</h2>
-      <p>No browsing history log. No third parties. No advertising. No remote code. Selected URLs leave the page only as tabs you open or text you copy.</p>
-
-      <h2>How to delete</h2>
-      <p>Uninstall the extension. Then, if you want settings gone from Chrome Sync, clear sync data for extensions in Chrome settings, or reset the options to defaults before uninstalling.</p>
-
-      <h2>Contact</h2>
-      <p>Use the support email on the Chrome Web Store listing once published, or the developer contact on the listing.</p>
-      <p><a href="options.html">Back to options</a></p>
-    </section>
+    <h1>Link Box privacy</h1>
+    <p class="lede">Effective 14 August 2026. Link Box is a local browser extension.</p>
+    <h2>What we collect</h2>
+    <p>The developer does not collect, receive, or sell any data. There is no account, no analytics, and no server.</p>
+    <p>On your device, Link Box reads link URLs on the page you are looking at, only when you drag a selection. Those URLs are used in memory to highlight, open tabs, or copy to the clipboard. They are not stored by the extension and are not sent to the developer.</p>
+    <p>Settings (activation key, max tabs, and the other options) are saved with <code>chrome.storage.sync</code>. If Chrome Sync is enabled, Google stores those settings in your Chrome profile so they follow you across devices. That is Chrome’s sync, not a Link Box server.</p>
+    <h2>What we do not do</h2>
+    <p>No browsing history log. No third parties. No advertising. No remote code. Selected URLs leave the page only as tabs you open or text you copy.</p>
+    <h2>How to delete</h2>
+    <p>Uninstall the extension. To clear synced settings, reset options to defaults before uninstalling, or clear extension sync data in Chrome settings.</p>
+    <h2>Contact</h2>
+    <p>Publisher contact: <a href="mailto:justperk27@gmail.com">justperk27@gmail.com</a></p>
   </main>
 </body>
 </html>
