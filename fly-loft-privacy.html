@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fly Loft privacy</title>
+  <style>
+    :root { color-scheme: dark; --bg: #0f1c22; --ink: #e8f2f4; --muted: #8aa4ad; }
+    body {
+      margin: 0;
+      padding: 28px 24px;
+      background: var(--bg);
+      color: var(--ink);
+      font: 16px/1.5 "Segoe UI", system-ui, sans-serif;
+    }
+    main { max-width: 560px; }
+    h1 { margin: 0 0 8px; font-size: 22px; }
+    h2 { margin: 22px 0 8px; font-size: 17px; }
+    p, li { color: var(--ink); }
+    .lead { color: var(--muted); margin: 0 0 20px; }
+    ul { padding-left: 1.2em; }
+    a { color: #3ecfbe; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Fly Loft privacy</h1>
+    <p class="lead">Updated 19 August 2026. I am a local Chrome extension. I do not send data off this computer, I do not use analytics or advertising, and I do not require an account.</p>
+
+    <h2>What I keep on this device</h2>
+    <p>I store only what I need to tile windows and undo the last split:</p>
+    <ul>
+      <li>Your layout preferences — which layout to apply on icon click, and any custom column ratios — in Chrome local extension storage until you change or uninstall them.</li>
+      <li>A one-step Undo snapshot in Chrome session storage: window sizes and positions, tab ids and order, pinned and active state, and tab-group title, color, and collapsed. I delete that snapshot when Undo finishes, when you apply a new layout, or when you quit Chrome.</li>
+      <li>A short last-error or last-notice string in session storage so the toolbar icon can show what happened after the popup closes.</li>
+      <li>This session’s measured minimum window size — width and height only — so I do not open a tiny probe window on every layout. That number is gone when you quit Chrome.</li>
+    </ul>
+
+    <h2>What I do not read or keep</h2>
+    <p>I do not read page URLs, titles, or contents. I do not store favicons, cookies, account identifiers, or keystrokes. I do not use Chrome sync storage.</p>
+
+    <h2>What leaves this computer</h2>
+    <p>Nothing I write. I make no network calls, I have no crash reporter, and I have no analytics. I read display work-area sizes so windows stay on the monitor you are using. Badge and tooltip text stay on this device.</p>
+
+    <p>Use of information received from Google APIs adheres to the Chrome Web Store User Data Policy, including the Limited Use requirements.</p>
+
+    <p>Questions: <a href="mailto:justperk27@gmail.com">justperk27@gmail.com</a></p>
+  </main>
+</body>
+</html>
